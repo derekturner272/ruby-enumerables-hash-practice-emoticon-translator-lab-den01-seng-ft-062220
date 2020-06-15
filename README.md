@@ -16,9 +16,9 @@ English names. He also asks you to create a method that will convert his English
 emoticons, like `:)`, into their Japanese equivalents so that he can look cool
 in texts to his new friends.
 
-We have an emoticon dictionary of sorts, `lib/emoticons.yml`, but it a _YAML_
+We have an emoticon dictionary of sorts, `lib/emoticons.yml`, but it's a _YAML_
 file, something we haven't seen before. As humans, we can read this file, but
-the contents are not in a format that we're used to working within Ruby.
+the contents are not in a format that we're used to working with in Ruby.
 
 Before we can build out our friend's methods, we will need to create a helper
 method that reads `lib/emoticons.yml` and organizes the data it contains into a
