@@ -30,7 +30,6 @@ def get_japanese_emoticon(library, emoticon)
   jpn_trans = library.keys.find do |name|
     library[name][:english] == emoticon 
   end
-
   if jpn_trans 
     return library[jpn_trans][:japanese] 
   else 
