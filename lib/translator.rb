@@ -32,7 +32,7 @@ def get_japanese_emoticon(library, emoticon)
   end
 
   if jpn_trans 
-    return library[jpn_trans][:english] 
+    return library[jpn_trans][:japanese] 
   else 
     return "Sorry, that emoticon was not found"
   end 
