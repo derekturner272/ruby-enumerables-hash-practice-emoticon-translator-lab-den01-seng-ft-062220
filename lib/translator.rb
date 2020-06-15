@@ -27,7 +27,7 @@ end
 def get_japanese_emoticon(library, emoticon)
   # code goes here
   library = load_library('./lib/emoticons.yml')
-  jpn_trans = library.value.find do |name|
+  jpn_trans = library.values_at.find do |name|
     library[name][:english] == emoticon 
   end
 
